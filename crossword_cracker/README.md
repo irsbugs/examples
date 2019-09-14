@@ -1,5 +1,5 @@
 # Crossword Puzzle or Code Cracker Tool
-
+Links: [Github](https://github.com/irsbugs/examples/blob/master/crossword_cracker/README.md) or [Website](https://irsbugs.github.io/examples/crossword_cracker/) 
 ## Introduction
 
 This program is designed to be an aid to solving crossword or code cracker puzzles. For example, if you know a word is 11 letters in length and starts and ends with the letter "w", then the program will show that the only word to meets this criteria is "wheelbarrow".

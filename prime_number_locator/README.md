@@ -1,5 +1,5 @@
 # Prime Number Locator
-
+Links: [Github](https://github.com/irsbugs/examples/blob/master/prime_number_locator/README.md) or [Website](https://irsbugs.github.io/examples/prime_number_locator/) 
 ## Introduction
 
 This program will locate prime numbers by searching through a range of numbers in which the user may provide the start integer and select from a list the range of numbers to search. The algorithm used to determe if an integer is a prime is also selectable. Four algorithms are provided. Some algorithms are more efficient than others and as the program executes the elapsed time and a progress bar are displayed as a way of measuring the efficiency of the selected algorithm.

@@ -1,4 +1,5 @@
-## Code Templates in Python - Level 2
+# Code Templates in Python - Level 2
+Links: [Github](https://github.com/irsbugs/examples/blob/master/ncea_level2/templates/README.md) or [Website](https://irsbugs.github.io/examples/ncea_level2/templates/) 
 
 These code templates may be useful for anyone who is learning the Python programming language. The templates use the procedural programming style. These templates are numbered and they are associated with the same numbered programs in the [snippets folder](https://github.com/HamPUG/examples/tree/master/ncea_level2/snippets). 
 

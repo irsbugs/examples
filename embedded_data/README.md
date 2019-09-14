@@ -1,5 +1,5 @@
 # Embedded Data in a Python Program
-
+Links: [Github](https://github.com/irsbugs/examples/blob/master/embedded_data/README.md) or [Website](https://irsbugs.github.io/examples/embedded_data/) 
 ## A Python Program that creates a Python Program which includes Embedded Data
 
 A python3 program that is used to read string data from a file where the data is newline delimited. E.g. The word list from a dictionary file, which on many linux systems is `/usr/share/dict/british-english` or `/usr/share/dict/american-english`

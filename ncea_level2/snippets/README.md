@@ -1,4 +1,5 @@
-## Code Snippets for Python - Level 2
+# Code Snippets for Python - Level 2
+Links: [Github](https://github.com/irsbugs/examples/blob/master/ncea_level2/snippets/README.md) or [Website](https://irsbugs.github.io/examples/ncea_level2/snippets/) 
 
 These code snippets may be useful for anyone who is learning the Python programming language. Their level of complexity is to encourage the use of the procedural programming style. They highlight development of function code blocks, but do not cover developing classes. They also assume the program is written as one file, and importing of modules is restricted to a small set of the builtin python modules. 
 

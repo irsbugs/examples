@@ -1,5 +1,5 @@
 # Simple Calculator
-
+Links: [Github](https://github.com/irsbugs/examples/blob/master/simple_calculator/README.md) or [Website](https://irsbugs.github.io/examples/simple_calculator/) 
 ## Introduction
 
 This python3 program, using the tkinter GUI, provides a four function calculator. 

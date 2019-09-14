@@ -1,6 +1,7 @@
-## Procedural Programming.
+# Procedural Programming.
+Links: [Github](https://github.com/irsbugs/examples/blob/master/procedural_programming/README.md) or [Website](https://irsbugs.github.io/examples/procedural_programming/) 
 
-### Command Line Programming Steps.
+# Command Line Programming Steps.
 
 A python program may be written as a sequential set of statements, but this may become complex to enhance and debug. To help overcome these issues it may be converted to use a [procedural programming paradigm](https://en.wikipedia.org/wiki/Procedural_programming).
 
@@ -20,7 +21,7 @@ Change the program to retrieve a radius and calculate a circle circumference and
 Argparse enables radius to be entered at the command line and become the radius prompt value. This may be suitable as a template for developing a procedural program.
 
 
-### Gtk+ Programming Steps.
+# Gtk+ Programming Steps.
 
 The [Python GObject Introspection](https://pygobject.readthedocs.io/en/latest/) respository provides the python language bindings for the [Gimp Toolkit (Gtk+)](https://en.wikipedia.org/wiki/GTK%2B) which is written in C. The following programs demonstate the steps in writing a Python GUI program using Gtk+:
 

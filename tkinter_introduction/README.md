@@ -1,6 +1,7 @@
 # Tkinter - Python Interface for the Widget Toolkit library Tk.
+Links: [Github](https://github.com/irsbugs/examples/blob/master/tkinter_introduction/README.md) or [Website](https://irsbugs.github.io/examples/tkinter_introduction/) 
 
-## Introduction to using tkinter.
+# Introduction to using tkinter.
 
 Wikipedia: https://en.wikipedia.org/wiki/Tk_(software)
 
@@ -47,7 +48,7 @@ The following are programs designed to help with understanding and being able to
 
 * 03_tkinter_class.py
 
-    This program uses a class construct. Within the class are the callback methods for buttons to change the text on the label. The New Zealand secondary school curriculum contains the subject `Digital Technologies.` For NCEA Level 3 this contains unit [91637](www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2014/as91637.doc) which requires a student to `Develop a complex computer program for a specified task.` A requirement is to use a class construct. This program may be suitable as a template for writing a program that meets this set of NCEA specifications.
+    This program uses a class construct. Within the class are the callback methods for buttons to change the text on the label. The New Zealand secondary school curriculum contains the subject `Digital Technologies.` For NCEA Level 3 this contains unit [91637](https://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2014/as91637.doc) which requires a student to `Develop a complex computer program for a specified task.` A requirement is to use a class construct. This program may be suitable as a template for writing a program that meets this set of NCEA specifications.
 
 
 Ian Stewart - 2016 July  

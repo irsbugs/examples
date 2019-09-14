@@ -1,5 +1,5 @@
 # Launching Python on Windows
-
+Links: [Github](https://github.com/irsbugs/examples/blob/master/windows_extensions/README.md) or [Website](https://irsbugs.github.io/examples/windows_extensions/) 
 ## The .py and .pyw extensions
 
 On the Windows platform python scripts may be saved with either `.py` or `.pyw`
