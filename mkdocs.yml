@@ -10,8 +10,8 @@ site_dir: site      # Temp website files until mkdocs gh-deploy performed.
 theme:
     name: 'material'  # default is 'mkdocs' theme
     palette:
-        primary: 'indigo'
-        accent: 'indigo'
+        primary: 'green'  # 'indigo'
+        accent: 'yellow'
 
 # Valid values for 'material' palette colours are: 
 # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, 
