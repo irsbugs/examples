@@ -1,0 +1,852 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Code Templates in Python - Level 2 - Hamilton Python Users Group</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#code-templates-in-python-level-2" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Hamilton Python Users Group" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Hamilton Python Users Group
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Code Templates in Python - Level 2
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Hamilton Python Users Group" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Hamilton Python Users Group
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Examples" class="md-nav__link">
+      Examples
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Crossword cracker
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Crossword cracker
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../crossword_cracker/" title="Crossword Puzzle or Code Cracker Tool" class="md-nav__link">
+      Crossword Puzzle or Code Cracker Tool
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Embedded data
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Embedded data
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../embedded_data/" title="Embedded Data in a Python Program" class="md-nav__link">
+      Embedded Data in a Python Program
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Evolution
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Evolution
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../evolution/" title="Evolution of a Python Program" class="md-nav__link">
+      Evolution of a Python Program
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Ncea level2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Ncea level2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Snippets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        Snippets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../snippets/" title="Code Snippets for Python - Level 2" class="md-nav__link">
+      Code Snippets for Python - Level 2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2" checked>
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Templates
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Templates
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Code Templates in Python - Level 2
+      </label>
+    
+    <a href="./" title="Code Templates in Python - Level 2" class="md-nav__link md-nav__link--active">
+      Code Templates in Python - Level 2
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-programs" class="md-nav__link">
+    Template Programs
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Prime number locator
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Prime number locator
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../prime_number_locator/" title="Prime Number Locator" class="md-nav__link">
+      Prime Number Locator
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Procedural programming
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Procedural programming
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../procedural_programming/" title="Procedural Programming." class="md-nav__link">
+      Procedural Programming.
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Simple calculator
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Simple calculator
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../simple_calculator/" title="Simple Calculator" class="md-nav__link">
+      Simple Calculator
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Tkinter introduction
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Tkinter introduction
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tkinter_introduction/" title="Tkinter - Python Interface for the Widget Toolkit library Tk." class="md-nav__link">
+      Tkinter - Python Interface for the Widget Toolkit library Tk.
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Windows extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Windows extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../windows_extensions/" title="Launching Python on Windows" class="md-nav__link">
+      Launching Python on Windows
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-programs" class="md-nav__link">
+    Template Programs
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="code-templates-in-python-level-2">Code Templates in Python - Level 2</h1>
+<p>Links: <a href="https://github.com/irsbugs/examples/blob/master/ncea_level2/templates/README.md">Github</a> or <a href="https://irsbugs.github.io/examples/ncea_level2/templates/">Website</a> </p>
+<p>These code templates may be useful for anyone who is learning the Python programming language. The templates use the procedural programming style. These templates are numbered and they are associated with the same numbered programs in the <a href="https://github.com/HamPUG/examples/tree/master/ncea_level2/snippets">snippets folder</a>. </p>
+<p>The top and bottom of these template programs remains much the same for each program. At the top of each program the template provides: shebang, importing modules, program description, copywrite, defining constants and variables. At the bottom of each program the template provides: <code>if __name__ == '__main__':</code>, help information function, python version check function, log file append function, command line argument parsing including debugging and help flags, and calls the main() function.</p>
+<p>The middle section of these template programs is what changes to give each program its unique features. It contains a main() function which includes calls to other functions.</p>
+<p>These template programs highlight the use of function code blocks, but do not utilise classes. They also assume the program is written as one file, and importing of modules is restricted to a small set of the builtin python modules. </p>
+<p>The programs are all console terminal based and there is no use of GUI windowing.</p>
+<p>These templates were developed using Python 3.4. They have been tested on Ubuntu Linux and Windows10 desktop environments.</p>
+<p>New Zealand secondary school teachers and students may find these template useful for the Digital Technologies, Level 2, Achievement Standards <a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91372.pdf">91372</a> and <a href="http://www.nzqa.govt.nz/nqfdocs/ncea-resource/achievements/2017/as91373.pdf">91373</a>.</p>
+<p>In a classroom computer lab that uses Windows10 desktop computers, the console terminal window applications (CMD and Powershell) may have been made unavailable on the students desktop computers. In the Windows10 file manager, if a <em>python</em> file is double-clicked it will launch a terminal window to run the python program. When the program completes, this terminal window is closed. To prevent the programs closing before a student has been able to see what the program does, all these snippet programs end with the lines...</p>
+<pre><code>input("Press Enter key to end the program.")
+sys.exit()
+</code></pre>
+<p>Ian Stewart - 2016 © <a href="https://creativecommons.org/licenses/by/4.0/"><img alt="" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></a></p>
+<h2 id="template-programs">Template Programs</h2>
+<p><strong>template_l2_01.py</strong> - <em>Fundament_Components</em></p>
+<p>Python program. Fundamental programming style components.
+Includes: Shebang, encoding, Commented text in help(), 
+Importing modules, variables, constants, python2 check, 
+main function, cli help(), <code>if __name__ == '__main__':</code>, 
+cli sys.argv list, debug, call main()</p>
+<p><strong>template_l2_02.py</strong> - <em>Time-Stamped_Logging</em></p>
+<p>Python program using a procedural programming style.
+Add Logging of time-stamped data</p>
+<p><strong>template_l2_03.py</strong> - <em>Check_Python_Min_Version</em></p>
+<p>Python program using a procedural programming style.
+Add: Check python is above the minimum version.</p>
+<p><strong>template_l2_04.py</strong> - <em>Functions</em></p>
+<p>Python program using a procedural programming style.
+Add: 2 x functions. Includes data-type testing and +=1
+Data can be passed as a command line option.</p>
+<p><strong>template_l2_05.py</strong> - <em>Input_From_Console</em></p>
+<p>Python program using a procedural programming style...
+Get integer or floating point value from console.</p>
+<p><strong>template_l2_06.py</strong> - <em>Input_Integer_From_Console</em></p>
+<p>Python program using a procedural programming style...
+Add: Integer only data from console.</p>
+<p><strong>template_l2_07.py</strong> - <em>Circle_Calculator</em></p>
+<p>When provided with the a value for the radius, the circle 
+calculator program will determine the circles 
+circumference and area.</p>
+<p><strong>template_l2_08.py</strong> - <em>Sphere_Calculator</em></p>
+<p>When provided with the a value for the radius, the sphere 
+calculator program will determine the spheres 
+surface area and volume.</p>
+<p><strong>template_l2_09.py</strong> - <em>Cube_Calculator</em></p>
+<p>When provided with the length of the edge of a cube 
+calculator program will determine the cubes 
+surface area, volume, and space diagonal.</p>
+<p><strong>template_l2_10.py</strong> - <em>Circle_Plotter</em></p>
+<p>When provided with a range of integer values for a radius
+the circle plotter program will determine the
+diameter, circumference and area.
+The output may be cut and pasted into a spreadsheet.
+If so, space delimiters must be merged.</p>
+<p><strong>template_l2_11.py</strong> - <em>Sphere_Plotter</em></p>
+<p>When provided with a range of integer values for a radius
+the sphere plotter program will determine the
+circumference, surface area and volume.
+The output may be cut and pasted into a spreadsheet.
+If so, space delimiters must be merged.</p>
+<p><strong>template_l2_12.py</strong> - <em>Sphere_Volume_Plotter</em></p>
+<p>When provided with a range of integer values for the
+cubic meter volume of a sphere, the sphere volume plotter
+program will determine the radius, diameter and 
+circumference of the sphere in meters.
+The output may be cut and pasted into a spreadsheet.
+If so, space delimiters must be merged.</p>
+<p><strong>template_l2_13.py</strong> - <em>Sphere_Litre_Plotter</em></p>
+<p>When provided with a range of integer values for the
+litres a sphere will hold, the sphere litre plotter
+program will determine the radius, diameter and 
+circumference of the sphere in centimeters.
+The output may be cut and pasted into a spreadsheet.
+If so, space delimiters must be merged.</p>
+<p><strong>template_l2_14.py</strong> - <em>Circle_Plotter_CSV</em></p>
+<p>When provided with a range of integer values for a radius
+the circle plotter program will determine the
+diameter, circumference and area. Like template_l2_10.py
+The data is output to a comma seperated values (.csv) file.</p>
+<p><strong>template_l2_15.py</strong> - <em>Cube_Plotter_CSV</em></p>
+<p>When provided with the length of the edge of a cube 
+calculator program will determine the cubes 
+surface area, volume, and space diagonal.
+Similar to template_l2_09.py
+The data is output to a comma seperated values (.csv) file
+The function update_data() is called from main().</p>
+<p><strong>template_l2_16.py</strong> - <em>Fibonacci_sequence</em></p>
+<p>Generate the Fibonacci sequence of integers.
+The total for the sequence may be selected.
+As each Fibonacci number in the sequence is generated 
+it is appended to a list.
+The items in the list are then output to the console.
+The sequence has been limited to 200 so they are easier
+to read on the console.
+Highlights there is no limit to python integer arithmetic</p>
+<p><strong>template_l2_17.py</strong> - <em>Integer_Fun</em></p>
+<p>Demonstrate the arithmetic performed on integers is 
+accurate and has no limits.
+Starting with a funny number it is manipulated with
+multiplication (<em>), addition (+) and exponents (</em>*) to 
+create an integer that is comprised of only one's.
+Also highlights use of the modulo operator (%) and pythons
+integer division (//), which is floor division.</p>
+<p><strong>template_l2_18.py</strong> - <em>Integer_Distance</em></p>
+<p>Demonstrate the arithmetic performed on integers is 
+accurate and has no limits.
+Introduce floating point calculation.</p>
+<p><strong>template_l2_19.py</strong> - <em>Bike_Speed</em></p>
+<p>Determine the speed of a bicycle. Parameters that may be
+adjusted are:
+1. Diameter of the rear wheel.
+2. Cadence. The revolutions per minute of the pedalling.
+3. Crankset teeth. Number of teeth on the front sprocket.
+A list provides the number of teeth on each sprocket of
+the casette on the rear wheel.
+Input values are Integers. Calculations are mostly floats.</p>
+<p><strong>template_l2_20.py</strong> - <em>Floating_Point</em></p>
+<p>Demonstrate floating-point arithmetic and 
+highlight some of its issues and limitations.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../snippets/" title="Code Snippets for Python - Level 2" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Code Snippets for Python - Level 2
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../prime_number_locator/" title="Prime Number Locator" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Prime Number Locator
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
